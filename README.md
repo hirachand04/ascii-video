@@ -39,41 +39,6 @@ Turn your webcam feed into a stunning, high-definition ASCII art stream in real-
    ```
    *Click the window and press `F11` or maximize for the full immersive experience!*
 
----
-
-## 📱 Android Setup (Termux)
-
-You can run this on your phone using **Termux**! Note that you need an X11 environment to see the video window.
-
-1. **Install Termux** from F-Droid or Play Store.
-2. **Install Termux-X11** (recommended) or use a VNC viewer.
-
-**In Termux:**
-
-1. **Update packages & install dependencies:**
-   ```bash
-   pkg update
-   pkg install python opencv x11-repo
-   ```
-
-2. **Install standard python libraries:**
-   ```bash
-   pip install numpy
-   ```
-
-3. **Setup Display (X11):**
-   *Ensure your X11 server app (e.g., Termux:X11) is running.*
-   ```bash
-   export DISPLAY=:0
-   ```
-
-4. **Run the converter:**
-   ```bash
-   python main.py
-   ```
-
----
-
 ## 🎮 Controls
 
 **IMPORTANT**: Click on the "ASCII Video Preview" window to ensure it has focus before using keys.
@@ -107,5 +72,6 @@ You can run this on your phone using **Termux**! Note that you need an X11 envir
 
 ## 📄 License
 MIT License. Feel free to use and modify!
+
 
 
