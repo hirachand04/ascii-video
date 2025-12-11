@@ -31,6 +31,10 @@ Turn your webcam feed into a stunning, high-definition ASCII art stream in real-
 
 3. **Run it!**
    ```bash
+   py -3.13 main.py
+   ```
+   **Or**
+   ```bash
    python main.py
    ```
    *Click the window and press `F11` or maximize for the full immersive experience!*
@@ -103,4 +107,5 @@ You can run this on your phone using **Termux**! Note that you need an X11 envir
 
 ## 📄 License
 MIT License. Feel free to use and modify!
+
 
