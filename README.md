@@ -20,7 +20,7 @@ Turn your webcam feed into a stunning, high-definition ASCII art stream in real-
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/ascii-video.git
+   git clone https://github.com/hirachand04/ascii-video.git
    cd ascii-video
    ```
 
@@ -103,3 +103,4 @@ You can run this on your phone using **Termux**! Note that you need an X11 envir
 
 ## 📄 License
 MIT License. Feel free to use and modify!
+
